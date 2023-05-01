@@ -20,7 +20,7 @@ public class BookController {
                 .build();
 
         BookDto book2 = BookDto.builder()
-                .title("My Second book title")
+                .title("My Second book title 1")
                 .build();
 
         List<BookDto> books = new ArrayList<>();
