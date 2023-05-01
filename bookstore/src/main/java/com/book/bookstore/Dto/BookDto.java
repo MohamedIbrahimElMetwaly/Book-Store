@@ -11,5 +11,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class BookDto {
     private String title;
+    private String subStitle;
 
 }

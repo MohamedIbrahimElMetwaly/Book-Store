@@ -17,6 +17,7 @@ public class BookController {
     public ResponseEntity<List<BookDto>> getBooks() {
         BookDto book = BookDto.builder()
                 .title("My First book title")
+                .subStitle("Sub title")
                 .build();
 
         List<BookDto> books = new ArrayList<>();
